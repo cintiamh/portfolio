@@ -25,6 +25,7 @@
     width: 150px;
     padding: 20px 0;
     text-align: center;
+    border-bottom: 1px dotted white;
 }
 
 #menu li a {
