@@ -6,3 +6,33 @@
     display: block;
     position: absolute;
 }
+
+#menu {
+    float: left;
+    display: block;
+    height: 100%;
+    width: 150px;
+    background-color: #333333;
+    opacity: 0.5;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    float: left;
+    display: block;
+    width: 150px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#menu li a {
+    color: #AADDFF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#blocks {
+    float: left;
+}

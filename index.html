@@ -9,21 +9,19 @@
 </head>
 <body>
 <div id="bg">
-    <ul>
-        <li>Home</li>
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Blog</li>
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
     </ul>
-    <section id="home" data-type="background" data-speed="10">
-        <article>
+    <div id="blocks">
+        <div id="home" class="block" data-type="background" data-speed="10">
             <h1>Hello! My name is Cintia.</h1>
             <h2>I am a web developer passionate about making the web a fun place to be.</h2>
-        </article>
-    </section>
-    <section id="work" data-type="background" data-speed="10">
-        <article>
+        </div>
+        <div id="work" class="block" data-type="background" data-speed="10">
             <h1>My Work</h1>
             <p>Some of the stuff I worked on. You can keep checking my GitHub for my most recent "experiment" or even
                 updates to this portfolio. :-)</p>
@@ -34,13 +32,10 @@
 
 
             <!-- SPOT FOR WORK AND PROJECTS ENDS HERE -->
-
-        </article>
-    </section>
-    <section id="about" data-type="background" data-speed="10">
-        <article>
+        </div>
+        <div id="about" class="block" data-type="background" data-speed="10">
             <h1>About me</h1>
-            <p>Hello, I'm Cintia and I live in the Bay Area in California. I work as a Software Engineer at Yahoo! and I
+            <p>Hello, I'm Cintia and I live in the Bay Area in California. I work as a Front End Software Engineer at Yahoo! and I
                 enjoy messing around with fun web stuff.</p>
             <p>I recently got my Master's degree at Carnegie Mellon University as a Master of Entertainment Technology,
                 which is most awesome degree to have (in my opinion). I have a reasonable knowledge in HTML5, CSS3 and
@@ -50,10 +45,8 @@
                 get to the final awesomeness.</p>
             <p>I don't consider myself a designer, but I am always picking some of my designer friends' brains to create
                 new experiences and for play testing my most recent "experiment".</p>
-        </article>
-    </section>
-    <section id="contact" data-type="background" data-speed="10">
-        <article>
+        </div>
+        <div id="contact" class="block" data-type="background" data-speed="10">
             <h1>Get in touch</h1>
             <ul>
                 <li>Facebook</li>
@@ -62,8 +55,8 @@
                 <li>LinkedIn</li>
                 <li>Twitter</li>
             </ul>
-        </article>
-    </section>
+        </div>
+    </div>
 </div>
 
 </body>
