@@ -1,17 +1,36 @@
+* {
+    font-family: 'Droid Sans', sans-serif;
+    color: #333;
+}
+
+h1, h2{
+    font-family: 'Special Elite', cursive;
+    font-size: 3em;
+    padding: 0.5em 0.1em 0.2em 0.1em;
+    color: #141414;
+}
+
 #bg {
-    background-image: url("../img/bg2.png");
-    background-size: 100% 100%;
+    background: #ffb76b; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #ffb76b 0%, #ff7c00 60%, #ff7f04 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffb76b), color-stop(60%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
     width: 100%;
     height: 100%;
     display: block;
     position: absolute;
+    overflow: hidden;
 }
 
 #menu {
     float: left;
     display: block;
-    height: 100%;
-    width: 150px;
+    width: 100%;
     background-color: #333333;
     opacity: 0.5;
     list-style-type: none;
@@ -23,9 +42,8 @@
     float: left;
     display: block;
     width: 150px;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
-    border-bottom: 1px dotted white;
 }
 
 #menu li a {
@@ -36,4 +54,19 @@
 
 #blocks {
     float: left;
+    max-width: 800px;
+    width: 85%;
+    font-size: 1.2em;
+}
+
+#blocks p {
+    padding: 0.5em;
+}
+
+#home h1, h2 {
+    font-family: 'Rock Salt', cursive;
+}
+
+#home h2 {
+    font-size: 2em;
 }
