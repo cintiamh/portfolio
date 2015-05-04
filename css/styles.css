@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     background-color: #F4F4FC;
+    overflow: hidden;
 }
 
 a {
@@ -73,7 +74,7 @@ a {
 }
 
 #body {
-    max-width: 1041px;
+    max-width: 1042px;
     margin: 0 auto;
     padding: 30px 10px;
     overflow: hidden;
