@@ -3,70 +3,121 @@
     color: #333;
 }
 
-h1, h2{
-    font-family: 'Special Elite', cursive;
-    font-size: 3em;
-    padding: 0.5em 0.1em 0.2em 0.1em;
-    color: #141414;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    /*color: #EA2E49;*/
+    color: #408C9B;
+    font-weight: lighter;
 }
 
-#bg {
-    background: #ffb76b; /* Old browsers */
-    background: -moz-radial-gradient(center, ellipse cover,  #ffb76b 0%, #ff7c00 60%, #ff7f04 100%); /* FF3.6+ */
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffb76b), color-stop(60%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(center, ellipse cover,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(center, ellipse cover,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* Opera 12+ */
-    background: -ms-radial-gradient(center, ellipse cover,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* IE10+ */
-    background: radial-gradient(ellipse at center,  #ffb76b 0%,#ff7c00 60%,#ff7f04 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+body {
+    background-color: #F4F4FC;
+}
 
+#header {
+    background-color: #333745;
     width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    overflow: hidden;
-}
-
-#menu {
-    float: left;
-    display: block;
-    width: 100%;
-    background-color: #333333;
-    opacity: 0.5;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#menu li {
-    float: left;
-    display: block;
-    width: 150px;
-    padding: 15px 0;
+    position: relative;
     text-align: center;
+    padding: 30px 0;
 }
 
-#menu li a {
-    color: #AADDFF;
-    text-decoration: none;
-    font-size: 1.2em;
+#face {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid white;
+    margin: 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; /* future proofing */
+    -khtml-border-radius: 50%; /* for old Konqueror browsers */
 }
 
-#blocks {
-    float: left;
-    max-width: 800px;
-    width: 85%;
-    font-size: 1.2em;
+#face img {
+    width: 100px;
 }
 
-#blocks p {
-    padding: 0.5em;
+#header h1, h2 {
+    color: #DAEDE2;
 }
 
-#home h1, h2 {
-    font-family: 'Rock Salt', cursive;
+#header h1 {
+    font-size: 3em;
 }
 
-#home h2 {
+#header h2 {
+    padding: 0;
     font-size: 2em;
+}
+
+#media {
+    padding: 30px;
+}
+
+#media .social {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+#media .social a {
+    text-underline: none;
+}
+
+#media .social img {
+    width: 30px;
+}
+
+#body {
+    max-width: 1041px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+#body h1 {
+    font-size: 3em;
+}
+
+#footer {
+    width: 100%;
+    background-color: #333745;
+    padding: 20px 10px;
+}
+
+#footer p {
+    color: white;
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
+#footer h1 {
+    color: #DAEDE2;
+    font-weight: lighter;
+    font-size: 1.5em;
+    padding: 10px 0;
+}
+
+#footer_content {
+    max-width: 1041px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer .media {
+    padding: 30px 0;
+}
+
+#footer .media .social {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+}
+
+#footer .media .social a {
+    text-underline: none;
+}
+
+#footer .media .social img {
+    width: 20px;
 }
